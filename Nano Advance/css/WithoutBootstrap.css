@@ -1,0 +1,677 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+  }
+  h1{
+    line-height: 38px;
+  }
+  .navbarimgsize{
+    width: auto;
+    margin-left: 2rem; 
+  }
+  .navbarcontentalign{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  .navbarhome{
+    text-decoration: none;  
+    margin-left: 1rem; 
+    margin-right: 1rem; 
+    color: gray; 
+  }
+  .active, navbarhome{
+    color: #0c82d1; 
+    font-weight: 800;
+  }
+  .navbarcontactbutton{
+    background: rgb(1,255,255);
+    background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+    border: 0px; 
+    width: 150px; 
+    height: 50px; 
+    border-radius: 5px; 
+    color: azure;
+    margin-right: 2rem;
+    align-items: center;
+  }
+
+  .hometextdiv{
+    padding: 1rem 6rem 1rem 6rem; 
+    width: auto; 
+    height:auto; 
+    line-height: 21px;
+  }
+  
+  .bgbody{
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background-color:  #003666;
+    padding-bottom: 5rem;
+    margin: 0rem 2rem 0rem 2rem;
+  }
+  .textCenter{
+    text-align: center;
+  }
+  .bluepagetext{
+    padding: 3rem 2rem 0rem 2rem;
+    color: #FFFFFF;
+  }
+  .bluepageimgleftrow{
+    display:flex; 
+    flex-direction: row; 
+    margin-top: 2rem;
+  }
+  
+  .bluepageimglefttext{
+    display: flex;
+    text-align: center;  
+    justify-content: center;
+    margin-top: 1rem;
+    color: white;
+  }
+  .bluepageimgrightrow{
+    display: flex; 
+    flex-direction: row;
+    margin-top: 2rem;
+    flex-direction: row-reverse;
+  }
+  
+  .bluepageimgrighttext{
+    text-align:center; 
+    justify-content: center;
+    margin-top: 1rem; 
+  }
+  .bluepageimgtext{
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+  }
+  .faqimg{
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 1rem;
+  }
+  .faqtext{
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+  }
+  .faqquestionsizediv{
+    margin: 0rem 5rem 3rem 5rem;
+  }
+  .unicodespan {
+  
+    background:none;
+    border:none;
+    font-size: 25px;;
+  }
+  .bgbodycontact{
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px 20px 0 0;
+    background-color:  #003666;
+  }
+  .contactimg{
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 2rem;
+  }
+  .contacttext{
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+  }
+  .formrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .formcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputstyleleft{
+    background-color: #003666; 
+    height: 3rem; 
+    border-radius: 5px; 
+    width: 15rem; 
+    color: white; 
+    border-color: white;
+    padding-left: 1rem; 
+  }
+  .inputstyleright{
+    background-color: #003666; 
+    height: 3rem; 
+    border-radius: 5px; 
+    width: 15rem; 
+    color: white; 
+    border-color: white;
+    margin-left: 2rem;
+    padding-left: 1rem;
+  }
+  .inputmessagediv{
+  
+    display:flex; 
+    justify-content: center; 
+    
+  }
+  .inputmessage{
+    margin-top: 1rem;
+    background-color: #003666; 
+    height: 5rem; 
+    border-radius: 5px; 
+    color: white; 
+    width: 33.5rem; 
+    border-color: white;
+    padding-left: 1rem;
+  }
+  .submitbuttondiv{
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 1rem; 
+    padding-bottom: 3rem;
+  }
+  ::placeholder{
+    color: white;
+  }
+  .backgroundimage{
+    background-image: url("/images/background.png");
+    background-repeat: repeat;
+    background-color: white;
+  }
+  .line {
+    padding-bottom: 1rem;
+    border-bottom:solid #f0f0f0;
+    border-bottom-width: 0.1px;
+    width: 100%;
+  }
+@media only screen and (max-device-width: 480px)
+and (min-device-width:320px){
+    /*Small Mobiles*/
+
+    .homeimg{
+      display:block;
+      width: 100%;
+    }
+    .homemaindiv{
+      margin: 1rem 0 1rem 0 ; 
+      align-items: center; 
+      justify-content: center;
+      width: auto;
+    }
+    .hometextdiv{
+    padding: 1rem 3rem 1rem 3rem; 
+    width: auto; 
+    height:auto; 
+    line-height: 21px;
+    }
+    .inputstyleleft{
+      background-color: #003666; 
+      height: 3rem; 
+      border-radius: 5px; 
+      width: 15rem; 
+      color: white; 
+      border-color: white;
+      padding-left: 1rem; 
+    }
+    .inputstyleright{
+      background-color: #003666; 
+      height: 3rem; 
+      border-radius: 5px; 
+      width: 15rem; 
+      color: white; 
+      border-color: white;
+      margin-right: 1.9rem;
+    }
+    .inputmessagediv{
+    
+      display:flex; 
+      justify-content: center; 
+      
+    }
+    .inputmessage{
+      margin-top: 1rem;
+      background-color: #003666; 
+      height: 5rem; 
+      border-radius: 5px; 
+      color: white; 
+      width: 15rem; 
+      border-color: white;
+      padding-left: 1rem;
+    }
+    .submitbuttondiv{
+      display:flex; 
+      justify-content: center; 
+      align-items: center; 
+      margin-top: 1rem; 
+      padding-bottom: 2rem;
+    }
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      width: 17rem; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+    ::placeholder{
+      color: white;
+    }
+    .faqquestionsizediv{
+      margin: 0 10px 16px 10px;
+    }
+    .bluepageimgleftsmallsize{
+      width: 100%;
+    }
+    .bluepageimgleftcol{
+      text-align: center;  
+    }
+    .bluepageimglefttext{
+      text-align: center;  
+      justify-content: center;
+      margin-top: 1rem;
+      color: white;
+    }
+    .bluepageimgrightcol{
+      text-align:center; 
+      margin-left:auto; 
+    }
+    .bluepageimgrighttext{
+      text-align:center; 
+      justify-content: center;
+      margin-top: 1rem; 
+      color: white;
+    }
+    .bgbody{
+      -moz-border-radius:20px;
+      -webkit-border-radius:20px;
+      border-radius: 20px;
+      background-color:  #003666;
+      padding-bottom: 5rem;
+      margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .header{
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .navbarimgsize{
+      width: auto;
+      display: flex; 
+      justify-content:center; 
+    }
+    .navbarcontentalign{
+      margin-top: 1rem;
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      margin-bottom: 1rem;
+    }
+    .navbarcontactbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      width: 150px; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure;
+      margin:0 0 2rem 0;
+    }
+    .buttoncenter{
+      display: flex; 
+      justify-content:center;
+    }
+
+    .faqtextdiv{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 0 2rem 0 2rem;
+      font-size: 15px;
+    }
+
+    .formcol{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    
+}
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px){
+    /*tablets*/
+    .homeimg{
+      display:block;
+      width: 100%;
+    }
+    .homemaindiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: auto;
+  }
+    .hometextdiv{
+      padding: 3rem 3rem 3rem 2rem; 
+      width: 50%;  
+      line-height: 21px;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      width: 50%;  
+    }
+    .bgbody{
+      -moz-border-radius:20px;
+      -webkit-border-radius:20px;
+      border-radius: 20px;
+      background-color:  #003666;
+      padding-bottom: 5rem;
+      margin: 0rem 2rem 0rem 2rem;
+    }
+    .header{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .bluepageimgleftcol{
+      text-align: left; 
+      margin-right: auto; 
+      padding-left: 8rem;
+      width: auto;
+    }
+    .faqtextdiv{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 0 2rem 0 2rem;
+      font-size: 20px;
+    }
+    .bluepageimgrightcol{
+      text-align:right; 
+      margin-left:auto; 
+      padding-right: 8rem;
+      width: auto;
+      padding-left: 10rem;
+    }
+
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      width: 35rem; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+}
+@media only screen and (min-device-width: 1024px)
+and (max-device-width:1440px){
+    /*Laptop*/
+    .homemaindiv{
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      width: auto;
+    }
+    .hometextdiv{
+      padding: 5rem 6rem 1rem 6rem; 
+      width: auto; 
+      height:auto; 
+      line-height: 21px;
+      width: 50%;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 5rem; 
+      width: 50%;  
+    }
+    .header{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .bluepageimgleftcol{
+      text-align: left; 
+      margin-right: auto; 
+      padding-left: 8rem;
+      width: auto;
+    }
+    .bluepageimgrightcol{
+      text-align:right; 
+      margin-left:auto; 
+      padding-right: 8rem;
+      width: auto;
+      text-align: right;
+    }
+
+    .bluepagetext{
+      padding: 3rem 15rem 0rem 15rem;
+      color: #FFFFFF;
+    }
+    .faqtextdiv{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 0 2rem 0 2rem;
+      font-size: 25px;
+    }
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      width: 35rem; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+}
+@media only screen and (min-device-width: 1440px)
+and (max-device-width:2560px){
+    /*Large Laptop*/
+    
+    .homeimg{
+      display:block;
+    }
+    .hometextdiv{
+      padding: 5rem 1rem 1rem 7rem; 
+      width: 50%;  
+      line-height: 21px;
+      font-size:large;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 5rem ;
+      width: 50%;  
+    }
+    .bgbody{
+      -moz-border-radius:20px;
+      -webkit-border-radius:20px;
+      border-radius: 20px;
+      background-color:  #003666;
+      padding-bottom: 5rem;
+      margin: 0rem 5rem 0rem 5rem;
+    }
+    .homemaindiv{
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      width: auto;
+    }
+    .header{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .faqtextdiv{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 0 2rem 0 2rem;
+      font-size: 30px;
+    }
+    .bluepageimgrightcol{
+      text-align:right; 
+      margin-left:auto; 
+      padding-right: 5rem;
+      width: auto;
+    }
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      width: 35rem; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+}
+@media only screen and (min-device-width: 1736px)
+and (max-device-width:2560px){
+    /*Large Laptop*/
+    
+    .homeimg{
+      display:block;
+    }
+    .hometextdiv{
+      padding: 3rem 40rem 5rem 8rem; 
+      width: 60%;  
+      line-height: 21px;
+      font-size: x-large;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      width: 40%;  
+    }
+    .bgbody{
+      -moz-border-radius:20px;
+      -webkit-border-radius:20px;
+      border-radius: 20px;
+      background-color:  #003666;
+      padding-bottom: 5rem;
+      margin: 0rem 5rem 0rem 5rem;
+    }
+    .homemaindiv{
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      width: auto;
+    }
+    .header{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .bluepageimgleftcol{
+      text-align: left; 
+      margin-right: auto; 
+      padding-left: 8rem;
+      width: auto;
+    }
+    .bluepageimgrightcol{
+      text-align:right; 
+      margin-left:auto; 
+      padding-right: 8rem;
+      width: auto;
+    }
+    .faqtextdiv{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 0 2rem 0 2rem;
+      font-size: 30px;
+    }
+}
+@media only screen and (min-width: 2560px){
+    /*Large Laptop*/
+
+    .homeimg{
+      display:block;
+    }
+    .hometextdiv{
+      padding: 10rem 15rem 2rem 10rem; 
+      width: 70%;  
+      line-height: 40px;
+      font-size: xx-large;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      width: 60%;  
+    }
+    .bgbody{
+      -moz-border-radius:20px;
+      -webkit-border-radius:20px;
+      border-radius: 20px;
+      background-color:  #003666;
+      padding-bottom: 5rem;
+      margin: 0rem 8rem 0rem 8rem;
+    }
+    .homemaindiv{
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      width: auto;
+    }
+    .header{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .bluepageimgleftcol{
+      text-align: left; 
+      margin-right: auto; 
+      padding-left: 8rem;
+      width: auto;
+    }
+    .bluepageimgrightcol{
+      text-align:right; 
+      margin-left:auto; 
+      padding-right: 8rem;
+      width: auto;
+    }
+    h1{
+      line-height: 60px;
+    }
+    .faqtextdiv{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 0 2rem 0 2rem;
+      font-size: 35px;
+    }
+}
+  
+

@@ -1,0 +1,495 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  font-family: 'Rubik', sans-serif;
+}
+.navbarimgsize{
+  width: auto;
+  margin-left: 2rem; 
+}
+
+.navbarhome{
+  text-decoration: none; 
+  color: #0c82d1; 
+  font-weight: 800; 
+  margin-left: 1rem; 
+  margin-right: 1rem;
+}
+.navbarother{
+  text-decoration: none; 
+  color: gray; 
+  margin-left: 1rem; 
+  margin-right: 1rem;
+}
+.navbarcontactbutton{
+  background: rgb(1,255,255);
+  background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+  border: 0px; 
+  width: 150px; 
+  height: 50px; 
+  border-radius: 5px; 
+  color: azure;
+  margin-right: 2rem;
+}
+.homemaindiv{
+  margin-top: 5rem;
+  padding: 2rem 0rem 0rem 1rem;
+  width: auto;
+}
+.bgbody{
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius: 20px;
+  background-color:  #003666;
+  padding-bottom: 5rem;
+}
+
+.textCenter{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.bluepagetext{
+  padding-top: 5%;
+  color: #FFFFFF;
+}
+.bluepageimgleftsmallsize{
+  display: block;
+}
+.bluepageimgleftrow{
+  display:flex; 
+  flex-direction: row; 
+  margin-top: 5rem;
+}
+.bluepageimgleftcol{
+  text-align: left; 
+  margin-right: auto; 
+  padding-left: 8rem;
+  width: auto;
+  color: white;
+}
+.bluepageimglefttext{
+  text-align: center;  
+  justify-content: center;
+  margin-top: 1rem;
+  color: white;
+}
+.bluepageimgrightrow{
+  display: flex; 
+  flex-direction:row-reverse;
+  margin-top: 5rem;
+}
+.bluepageimgrightcol{
+  text-align:right; 
+  flex-direction: column-reverse;
+  padding-right: 8rem;
+}
+.bluepageimgrighttext{
+  text-align:center; 
+  justify-content: center;
+  margin-top: 1rem; 
+}
+.bluepageimgtext{
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+.faqimg{
+  display:flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.faqtext{
+  display:flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 2rem; 
+}
+.faqquestionsizediv{
+  margin: 0 109px 100px 109px;
+}
+.faqtextdiv{
+  display: flex; 
+  justify-content:space-between; 
+  align-items: center; 
+  padding: 0 2rem 0 2rem;
+  margin-top: 2rem;
+}
+.unicodespan {
+
+  background:none;
+  border:none;
+  font-size: 25px;;
+}
+.bgbodycontact{
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius: 20px 20px 0 0;
+  background-color:  #003666;
+}
+.contactimg{
+  display:flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding-top: 5rem;
+}
+.contacttext{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display:flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white;
+}
+.formrow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.formcol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputstyle{
+  background-color: #003666; 
+  height: 3rem; 
+  border-radius: 5px; 
+  width: 15rem; 
+  color: white; 
+  border-color: white;
+  padding: 1rem;
+}
+::placeholder{
+  color: white;
+}
+
+.line {
+  padding-bottom: 1rem;
+  border-bottom:solid #f0f0f0;
+  border-bottom-width: 0.1px;
+  width: 100%;
+}
+.backgroundimage{
+  background-image: url("/images/background.png");
+  background-repeat: repeat;
+  background-color: white;
+}
+.accordion-button.collapsed::after{
+  content: "\002B";
+  background:none;
+  border:none;
+  font-size: 25px;;
+}
+
+@media only screen and (max-device-width: 480px)
+and (min-device-width:320px){
+    /*Small Mobiles*/
+
+    .navbarstyle{
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background-color: white;
+    }
+
+  .navbarcontentalign{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.homeimg{
+  display:block;
+  width: 100%;
+}
+.bluepageimgleftcol{
+  text-align: left; 
+  margin-right: auto; 
+  padding-left: 3rem;
+  width: auto;
+}
+.bluepageimgleftsmallsize{
+  width: 100%;
+  
+}
+.bluepageimgrightsmallsize{
+  width: 100%;
+
+}
+.bluepageimgrightcol{
+  text-align:right; 
+  margin-left:auto; 
+  padding-right: 2rem;
+  width: auto;
+}
+.bluepageimgleftcol{
+  text-align: center; 
+  margin-right: auto; 
+  width: auto;
+  padding-right: 2rem;
+}
+.inputstyleleft{
+  background-color: #003666; 
+  height: 3rem; 
+  border-radius: 5px; 
+  width: 15rem; 
+  color: white; 
+  border-color: white;
+  padding-left: 1rem; 
+}
+.inputstyleright{
+  background-color: #003666; 
+  height: 3rem; 
+  border-radius: 5px; 
+  width: 15rem; 
+  color: white; 
+  border-color: white;
+  margin-right: 1.9rem;
+}
+.inputmessagediv{
+
+  display:flex; 
+  justify-content: center; 
+  
+}
+.inputmessage{
+  background-color: transparent; 
+  height: 5rem; 
+  border-radius: 5px; 
+  color: white;  
+  border-color: white;
+}
+.submitbutton{
+  background: rgb(1,255,255);
+  background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+  border: 0px;  
+  height: 50px; 
+  border-radius: 5px; 
+  color: azure; 
+}
+::placeholder{
+  color: white;
+}
+}
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px){
+    /*tablets*/
+    
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+    .homeimg{
+      display:block;
+      width: 100%;
+      
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      width: 50%;  
+    }
+
+    .hometextdiv{
+      padding: 5rem 6rem 1rem 2rem; 
+      width: auto; 
+      height:auto; 
+      line-height: 21px;
+    }
+    
+    .inputmessage{
+      background-color: transparent; 
+      height: 5rem; 
+      border-radius: 5px; 
+      color: white;  
+      border-color: white;
+    }
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+}
+@media only screen and (min-device-width: 1024px)
+and (max-device-width:1440px){
+    /*Laptop*/
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+
+    .hometextdiv{
+      padding: 5rem 10rem 1rem 2rem; 
+      width: auto; 
+      height:auto; 
+      line-height: 21px;
+      width: 50%;
+      font-size: large;
+      margin-bottom: 5rem;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      width: 50%;  
+    }
+    .inputmessage{
+      background-color: transparent; 
+      height: 5rem; 
+      border-radius: 5px; 
+      color: white;  
+      border-color: white;
+    }
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+}
+@media only screen and (min-device-width: 1440px)
+and (max-device-width:2560px){
+    /*Large Laptop*/
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+
+    .hometextdiv{
+      padding: 5rem 10rem 1rem 2rem; 
+      width: auto; 
+      height:auto; 
+      line-height: 21px;
+      width: 50%;
+      font-size: large;
+      margin-bottom: 5rem;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      width: 50%;  
+    }
+
+    .inputmessage{
+      width: auto;
+      background-color: transparent; 
+      height: 5rem; 
+      border-radius: 5px; 
+      color: white; 
+      border-color: white;
+    }
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+    
+}
+@media only screen and (min-device-width: 1736px)
+and (max-device-width:2560px){
+    /*Large Laptop*/
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+
+    .hometextdiv{
+      padding: 5rem 10rem 1rem 2rem; 
+      width: auto; 
+      height:auto; 
+      line-height: 21px;
+      width: 50%;
+      font-size: large;
+      margin-bottom: 5rem;
+
+      
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      width: 50%;  
+    }
+    
+}
+@media only screen and (min-width: 2560px){
+    /*Large Laptop*/
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+    .navbarcontentalign{
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+    }
+
+    .hometextdiv{
+      padding: 5rem 10rem 1rem 2rem; 
+      width: auto; 
+      height:auto; 
+      line-height: 21px;
+      width: 50%;
+      font-size: large;
+      margin-bottom: 5rem;
+    }
+    .homeimgdiv{
+      padding-left: 1rem;
+      padding-right: 1rem; 
+      width: 50%;  
+    }
+    .inputmessage{
+      background-color:transparent; 
+      height: 50px; 
+      border-radius: 5px; 
+      color: white;  
+      width: auto;
+      border-color: white;
+    }
+    .submitbutton{
+      background: rgb(1,255,255);
+      background: linear-gradient(90deg, rgba(1,255,255,1) 0%, rgba(1,150,252,1) 100%); 
+      border: 0px;  
+      height: 50px; 
+      border-radius: 5px; 
+      color: azure; 
+    }
+}
